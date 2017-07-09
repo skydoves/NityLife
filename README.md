@@ -1,5 +1,6 @@
 # NityLife
-Cocos-2dx c++ win32 and mobile patform game in 2014 main codes.
+This simple projects is cocos-2dx c++ multi-patform(win32, android, ios, linux) game in 2014.<br>
+There are a title, main scene, two mini games and shop scene.
 
 
 ![screenshot_2014-08-17-00-13-28](https://user-images.githubusercontent.com/24237865/27590756-9cbfe788-5b8a-11e7-8bae-ccda2999c913.png)
