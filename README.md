@@ -1,5 +1,5 @@
 # NityLife
-This simple projects is cocos-2dx c++ multi-patform(win32, android, ios, linux) game in 2014.<br>
+This simple project is cocos-2dx c++ multi-patform(win32, android, ios, linux) game in 2014.<br>
 There are a title, main scene, two mini games and shop scene.
 
 
@@ -9,7 +9,7 @@ There are a title, main scene, two mini games and shop scene.
 
 ## Prerequisites:
 
-* python 2.7.x
+* python 2.7.x or 3.x.x
 * Cocos2d-x v3.11.1
 * Android NDK
 * Android SDK **OR** Eclipse ADT Bundle
