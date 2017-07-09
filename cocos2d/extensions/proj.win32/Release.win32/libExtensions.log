@@ -1,0 +1,108 @@
+﻿빌드 시작: 2014-09-15 오후 1:43:37
+     1>4 노드의 "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\extensions\proj.win32\libExtensions.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\\" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\unzip" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\curl\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\sqlite3\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\libwebsockets\win32\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /I..\ /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\platform\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /nologo /W3 /WX- /MP /O1 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _LIB /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt "..\assets-manager\AssetsManager.cpp" ..\GUI\CCControlExtension\CCControl.cpp ..\GUI\CCControlExtension\CCControlButton.cpp ..\GUI\CCControlExtension\CCControlColourPicker.cpp ..\GUI\CCControlExtension\CCControlHuePicker.cpp ..\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\GUI\CCControlExtension\CCControlSlider.cpp ..\GUI\CCControlExtension\CCControlStepper.cpp ..\GUI\CCControlExtension\CCControlSwitch.cpp ..\GUI\CCControlExtension\CCControlUtils.cpp ..\GUI\CCControlExtension\CCInvocation.cpp ..\GUI\CCControlExtension\CCScale9Sprite.cpp ..\GUI\CCEditBox\CCEditBox.cpp ..\GUI\CCEditBox\CCEditBoxImplWin.cpp ..\GUI\CCScrollView\CCScrollView.cpp ..\GUI\CCScrollView\CCTableView.cpp ..\GUI\CCScrollView\CCTableViewCell.cpp "..\physics-nodes\CCPhysicsDebugNode.cpp" "..\physics-nodes\CCPhysicsSprite.cpp" Win32InputBox.cpp
+         AssetsManager.cpp
+         CCControl.cpp
+         CCControlButton.cpp
+         CCControlColourPicker.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\assets-manager\AssetsManager.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\assets-manager\AssetsManager.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\assets-manager\AssetsManager.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\assets-manager\AssetsManager.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': deprecated로 선언되었습니다. (..\assets-manager\AssetsManager.cpp)
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 'cocos2d::GL::deleteTextureN' 선언을 참조하십시오.
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlColourPicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlColourPicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControl.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControl.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlButton.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlButton.cpp)
+         CCControlHuePicker.cpp
+         CCControlPotentiometer.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\extensions\gui\cccontrolextension\CCControlPotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlSlider.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlHuePicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlHuePicker.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSlider.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSlider.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+         CCControlStepper.cpp
+         CCControlSwitch.cpp
+         CCControlUtils.cpp
+         CCInvocation.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlStepper.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlStepper.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSwitch.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlSwitch.cpp)
+         CCScale9Sprite.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlUtils.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCControlUtils.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCInvocation.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCInvocation.cpp)
+         CCEditBox.cpp
+         CCEditBoxImplWin.cpp
+         CCScrollView.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCScale9Sprite.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCControlExtension\CCScale9Sprite.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBox.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBox.cpp)
+         CCTableView.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\extensions\gui\cccontrolextension\CCControlPotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBox.cpp)
+         CCTableViewCell.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': deprecated로 선언되었습니다. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 'cocos2d::GL::deleteTextureN' 선언을 참조하십시오.
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\extensions\gui\cccontrolextension\CCControlPotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\GUI\CCEditBox\CCEditBoxImplWin.cpp)
+     1>..\GUI\CCEditBox\CCEditBoxImplWin.cpp(171): warning C4996: 'cocos2d::cc_utf8_strlen': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h(169) : 'cocos2d::cc_utf8_strlen' 선언을 참조하십시오.
+         CCPhysicsDebugNode.cpp
+         CCPhysicsSprite.cpp
+         Win32InputBox.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics-nodes\CCPhysicsDebugNode.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics-nodes\CCPhysicsDebugNode.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics-nodes\CCPhysicsSprite.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (Win32InputBox.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (Win32InputBox.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (Win32InputBox.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (Win32InputBox.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': deprecated로 선언되었습니다. (Win32InputBox.cpp)
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 'cocos2d::GL::deleteTextureN' 선언을 참조하십시오.
+       Lib:
+         C:\Program Files\VC\bin\Lib.exe /OUT:"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Release.win32\libExtensions.lib" /NOLOGO Release.win32\AssetsManager.obj
+         Release.win32\CCControl.obj
+         Release.win32\CCControlButton.obj
+         Release.win32\CCControlColourPicker.obj
+         Release.win32\CCControlHuePicker.obj
+         Release.win32\CCControlPotentiometer.obj
+         Release.win32\CCControlSaturationBrightnessPicker.obj
+         Release.win32\CCControlSlider.obj
+         Release.win32\CCControlStepper.obj
+         Release.win32\CCControlSwitch.obj
+         Release.win32\CCControlUtils.obj
+         Release.win32\CCInvocation.obj
+         Release.win32\CCScale9Sprite.obj
+         Release.win32\CCEditBox.obj
+         Release.win32\CCEditBoxImplWin.obj
+         Release.win32\CCScrollView.obj
+         Release.win32\CCTableView.obj
+         Release.win32\CCTableViewCell.obj
+         Release.win32\CCPhysicsDebugNode.obj
+         Release.win32\CCPhysicsSprite.obj
+         Release.win32\Win32InputBox.obj
+         libExtensions.vcxproj -> C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Release.win32\libExtensions.lib
+     1>"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\extensions\proj.win32\libExtensions.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:03:12.05

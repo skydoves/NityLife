@@ -1,0 +1,588 @@
+﻿빌드 시작: 2014-08-05 오후 12:28:55
+     1>2 노드의 "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\cocos2d.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\sqlite3\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\unzip" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\edtaa3func" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\tinyxml2" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\png\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\jpeg\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\tiff\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\webp\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\freetype2\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\icon\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\xxhash" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\ConvertUTF" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\platform\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\external\ConvertUTF\ConvertUTF.c ..\..\external\ConvertUTF\ConvertUTFWrapper.cpp ..\..\external\edtaa3func\edtaa3func.cpp ..\..\external\tinyxml2\tinyxml2.cpp ..\..\external\unzip\ioapi.cpp ..\..\external\unzip\unzip.cpp ..\..\external\xxhash\xxhash.c ..\3d\CCAnimate3D.cpp ..\3d\CCAnimation3D.cpp ..\3d\CCBundle3D.cpp ..\3d\CCBundleReader.cpp ..\3d\CCMesh.cpp ..\3d\CCMeshSkin.cpp ..\3d\CCObjLoader.cpp ..\3d\CCSprite3D.cpp ..\3d\CCSprite3DMaterial.cpp ..\base\atitc.cpp ..\base\base64.cpp ..\base\CCAutoreleasePool.cpp ..\base\ccCArray.cpp ..\base\CCConfiguration.cpp ..\base\CCConsole.cpp ..\base\CCData.cpp ..\base\CCDataVisitor.cpp ..\base\CCDirector.cpp ..\base\CCEvent.cpp ..\base\CCEventAcceleration.cpp ..\base\CCEventCustom.cpp ..\base\CCEventDispatcher.cpp ..\base\CCEventFocus.cpp ..\base\CCEventKeyboard.cpp ..\base\CCEventListener.cpp ..\base\CCEventListenerAcceleration.cpp ..\base\CCEventListenerCustom.cpp ..\base\CCEventListenerFocus.cpp ..\base\CCEventListenerKeyboard.cpp ..\base\CCEventListenerMouse.cpp ..\base\CCEventListenerTouch.cpp ..\base\CCEventMouse.cpp ..\base\CCEventTouch.cpp ..\base\ccFPSImages.c ..\base\CCIMEDispatcher.cpp ..\base\CCNS.cpp ..\base\CCProfiling.cpp ..\base\CCRef.cpp ..\base\CCScheduler.cpp ..\base\CCScriptSupport.cpp ..\base\CCTouch.cpp ..\base\ccTypes.cpp ..\base\CCUserDefault.cpp ..\base\ccUTF8.cpp ..\base\ccUtils.cpp ..\base\CCValue.cpp ..\base\etc1.cpp ..\base\ObjectFactory.cpp ..\base\s3tc.cpp ..\base\TGAlib.cpp ..\base\ZipUtils.cpp ..\cocos2d.cpp ..\deprecated\CCArray.cpp ..\deprecated\CCDeprecated.cpp ..\deprecated\CCDictionary.cpp ..\deprecated\CCNotificationCenter.cpp ..\deprecated\CCSet.cpp ..\deprecated\CCString.cpp ..\math\CCAffineTransform.cpp ..\math\CCGeometry.cpp ..\math\CCVertex.cpp ..\math\Mat4.cpp ..\math\MathUtil.cpp ..\math\Quaternion.cpp ..\math\TransformUtils.cpp ..\math\Vec2.cpp ..\math\Vec3.cpp ..\math\Vec4.cpp ..\physics\CCPhysicsBody.cpp ..\physics\CCPhysicsContact.cpp ..\physics\CCPhysicsJoint.cpp ..\physics\CCPhysicsShape.cpp ..\physics\CCPhysicsWorld.cpp ..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp ..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp ..\platform\CCFileUtils.cpp ..\platform\CCGLViewProtocol.cpp ..\platform\CCImage.cpp ..\platform\CCSAXParser.cpp ..\platform\CCThread.cpp ..\platform\desktop\CCGLView.cpp ..\platform\win32\CCApplication.cpp ..\platform\win32\CCCommon.cpp ..\platform\win32\CCDevice.cpp ..\platform\win32\CCFileUtilsWin32.cpp ..\platform\win32\CCStdC.cpp ..\renderer\CCBatchCommand.cpp ..\renderer\CCCustomCommand.cpp ..\renderer\CCGLProgram.cpp ..\renderer\CCGLProgramCache.cpp ..\renderer\CCGLProgramState.cpp ..\renderer\CCGLProgramStateCache.cpp ..\renderer\ccGLStateCache.cpp ..\renderer\CCGroupCommand.cpp ..\renderer\CCMeshCommand.cpp ..\renderer\CCQuadCommand.cpp ..\renderer\CCRenderCommand.cpp ..\renderer\CCRenderer.cpp ..\renderer\ccShaders.cpp ..\renderer\CCTexture2D.cpp ..\renderer\CCTextureAtlas.cpp ..\renderer\CCTextureCache.cpp CCAction.cpp CCActionCamera.cpp CCActionCatmullRom.cpp CCActionEase.cpp CCActionGrid.cpp CCActionGrid3D.cpp CCActionInstant.cpp CCActionInterval.cpp CCActionManager.cpp CCActionPageTurn3D.cpp CCActionProgressTimer.cpp CCActionTiledGrid.cpp CCActionTween.cpp CCAnimation.cpp CCAnimationCache.cpp CCAtlasNode.cpp CCClippingNode.cpp CCComponent.cpp CCComponentContainer.cpp CCDrawingPrimitives.cpp CCDrawNode.cpp CCFastTMXLayer.cpp CCFastTMXTiledMap.cpp CCFont.cpp CCFontAtlas.cpp CCFontAtlasCache.cpp CCFontCharMap.cpp CCFontFNT.cpp CCFontFreeType.cpp CCGLBufferedNode.cpp CCGrabber.cpp CCGrid.cpp CCLabel.cpp CCLabelAtlas.cpp CCLabelBMFont.cpp CCLabelTextFormatter.cpp CCLabelTTF.cpp CCLayer.cpp CCMenu.cpp CCMenuItem.cpp CCMotionStreak.cpp CCNode.cpp CCNodeGrid.cpp CCParallaxNode.cpp CCParticleBatchNode.cpp CCParticleExamples.cpp CCParticleSystem.cpp CCParticleSystemQuad.cpp CCProgressTimer.cpp CCRenderTexture.cpp CCScene.cpp CCSprite.cpp CCSpriteBatchNode.cpp CCSpriteFrame.cpp CCSpriteFrameCache.cpp CCTextFieldTTF.cpp CCTileMapAtlas.cpp CCTMXLayer.cpp CCTMXObjectGroup.cpp CCTMXTiledMap.cpp CCTMXXMLParser.cpp CCTransition.cpp CCTransitionPageTurn.cpp CCTransitionProgress.cpp CCTweenFunction.cpp
+         ConvertUTF.c
+         ConvertUTFWrapper.cpp
+         edtaa3func.cpp
+         tinyxml2.cpp
+         ioapi.cpp
+         unzip.cpp
+         xxhash.c
+     1>..\..\external\xxhash\xxhash.c(312): warning C4804: '/' : 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+         CCAnimate3D.cpp
+         CCAnimation3D.cpp
+         CCBundle3D.cpp
+         CCBundleReader.cpp
+     1>..\3d\CCBundle3D.cpp(107): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>..\3d\CCBundle3D.cpp(492): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         CCMesh.cpp
+     1>..\3d\CCAnimate3D.cpp(98): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         CCMeshSkin.cpp
+         CCObjLoader.cpp
+         CCSprite3D.cpp
+     1>..\3d\CCMeshSkin.cpp(301): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>..\3d\CCMeshSkin.cpp(307): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>..\3d\CCMeshSkin.cpp(335): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>..\3d\CCMeshSkin.cpp(338): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>..\3d\CCObjLoader.cpp(169): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+         CCSprite3DMaterial.cpp
+         atitc.cpp
+         base64.cpp
+         CCAutoreleasePool.cpp
+         ccCArray.cpp
+         CCConfiguration.cpp
+         CCConsole.cpp
+         CCData.cpp
+         CCDataVisitor.cpp
+         CCDirector.cpp
+         CCEvent.cpp
+         CCEventAcceleration.cpp
+         CCEventCustom.cpp
+         CCEventDispatcher.cpp
+         CCEventFocus.cpp
+         CCEventKeyboard.cpp
+         CCEventListener.cpp
+         CCEventListenerAcceleration.cpp
+         CCEventListenerCustom.cpp
+         CCEventListenerFocus.cpp
+         CCEventListenerKeyboard.cpp
+         CCEventListenerMouse.cpp
+         CCEventListenerTouch.cpp
+         CCEventMouse.cpp
+         CCEventTouch.cpp
+         ccFPSImages.c
+         CCIMEDispatcher.cpp
+         CCNS.cpp
+         CCProfiling.cpp
+         CCRef.cpp
+         CCScheduler.cpp
+         CCScriptSupport.cpp
+         CCTouch.cpp
+         ccTypes.cpp
+         CCUserDefault.cpp
+         ccUTF8.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base\ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\base\ccUTF8.cpp)
+         ccUtils.cpp
+         CCValue.cpp
+     1>..\base\ccUTF8.cpp(234): warning C4996: 'cocos2d::cc_wcslen': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base\ccUTF8.h(130) : 'cocos2d::cc_wcslen' 선언을 참조하십시오.
+     1>..\base\ccUTF8.cpp(277): warning C4996: 'cocos2d::cc_wcslen': deprecated로 선언되었습니다.
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base\ccUTF8.h(130) : 'cocos2d::cc_wcslen' 선언을 참조하십시오.
+         etc1.cpp
+         ObjectFactory.cpp
+         s3tc.cpp
+         TGAlib.cpp
+         ZipUtils.cpp
+         cocos2d.cpp
+         CCArray.cpp
+         CCDeprecated.cpp
+         CCDictionary.cpp
+         CCNotificationCenter.cpp
+         CCSet.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\deprecated\CCDeprecated.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\deprecated\CCDeprecated.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\deprecated\CCDeprecated.cpp)
+         CCString.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\deprecated\CCDeprecated.cpp)
+         CCAffineTransform.cpp
+         CCGeometry.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\deprecated/CCDeprecated.h(1023): warning C4996: 'cocos2d::GL::deleteTextureN': deprecated로 선언되었습니다. (..\deprecated\CCDeprecated.cpp)
+                 c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\renderer/ccGLStateCache.h(132) : 'cocos2d::GL::deleteTextureN' 선언을 참조하십시오.
+         CCVertex.cpp
+         Mat4.cpp
+         MathUtil.cpp
+         Quaternion.cpp
+         TransformUtils.cpp
+         Vec2.cpp
+         Vec3.cpp
+         Vec4.cpp
+         CCPhysicsBody.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsBody.cpp)
+         CCPhysicsContact.cpp
+         CCPhysicsJoint.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsBody.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsBody.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsBody.cpp)
+         CCPhysicsShape.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsShape.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsContact.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsContact.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsContact.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsContact.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsJoint.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsJoint.cpp)
+         CCPhysicsWorld.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsJoint.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsJoint.cpp)
+         CCPhysicsBodyInfo_chipmunk.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsBodyInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsShape.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsShape.cpp)
+         CCPhysicsContactInfo_chipmunk.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsShape.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsContactInfo_chipmunk.cpp)
+         CCPhysicsJointInfo_chipmunk.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsJointInfo_chipmunk.cpp)
+         CCPhysicsShapeInfo_chipmunk.cpp
+         CCPhysicsWorldInfo_chipmunk.cpp
+         CCFileUtils.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsShapeInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsWorld.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\CCPhysicsWorld.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsWorld.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\physics\CCPhysicsWorld.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp)
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: 부동 소수점 상수 산술 연산에서 오버플로가 발생했습니다. (..\physics\chipmunk\CCPhysicsWorldInfo_chipmunk.cpp)
+         CCGLViewProtocol.cpp
+         CCImage.cpp
+         CCSAXParser.cpp
+     1>..\platform\CCSAXParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\platform\CCSAXParser.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\platform\CCFileUtils.cpp)
+     1>..\platform\CCFileUtils.cpp(545): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         CCThread.cpp
+         CCGLView.cpp
+         CCApplication.cpp
+         CCCommon.cpp
+         CCDevice.cpp
+         CCFileUtilsWin32.cpp
+         CCStdC.cpp
+         CCBatchCommand.cpp
+         CCCustomCommand.cpp
+         CCGLProgram.cpp
+     1>c:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform\win32\CCFileUtilsWin32.h(102): warning C4996: 'cocos2d::FileUtils::getFileData': deprecated로 선언되었습니다. (..\platform\win32\CCFileUtilsWin32.cpp)
+                 C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCFileUtils.h(101) : 'cocos2d::FileUtils::getFileData' 선언을 참조하십시오.
+         CCGLProgramCache.cpp
+         CCGLProgramState.cpp
+         CCGLProgramStateCache.cpp
+         ccGLStateCache.cpp
+         CCGroupCommand.cpp
+         CCMeshCommand.cpp
+         CCQuadCommand.cpp
+     1>..\renderer\ccGLStateCache.cpp(225): warning C4800: 'uint32_t' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>..\renderer\ccGLStateCache.cpp(226): warning C4800: 'uint32_t' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+         CCRenderCommand.cpp
+         CCRenderer.cpp
+         ccShaders.cpp
+         CCTexture2D.cpp
+         CCTextureAtlas.cpp
+         CCTextureCache.cpp
+         CCAction.cpp
+         CCActionCamera.cpp
+         CCActionCatmullRom.cpp
+         CCActionEase.cpp
+         CCActionGrid.cpp
+         CCActionGrid3D.cpp
+         CCActionInstant.cpp
+         CCActionInterval.cpp
+         CCActionManager.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionInstant.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionInstant.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionInterval.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionInterval.cpp)
+         CCActionPageTurn3D.cpp
+         CCActionProgressTimer.cpp
+         CCActionTiledGrid.cpp
+         CCActionTween.cpp
+         CCAnimation.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionProgressTimer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCActionProgressTimer.cpp)
+         CCAnimationCache.cpp
+         CCAtlasNode.cpp
+         CCClippingNode.cpp
+         CCComponent.cpp
+         CCComponentContainer.cpp
+         CCDrawingPrimitives.cpp
+         CCDrawNode.cpp
+         CCFastTMXLayer.cpp
+         CCFastTMXTiledMap.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXLayer.cpp)
+         CCFont.cpp
+     1>CCFont.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXLayer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXLayer.cpp)
+         CCFontAtlas.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFastTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFont.cpp)
+         CCFontAtlasCache.cpp
+         CCFontCharMap.cpp
+         CCFontFNT.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFontAtlas.cpp)
+         CCFontFreeType.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFontCharMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFontFNT.cpp)
+         CCGLBufferedNode.cpp
+         CCGrabber.cpp
+         CCGrid.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCFontFreeType.cpp)
+         CCLabel.cpp
+         CCLabelAtlas.cpp
+         CCLabelBMFont.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabel.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabel.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabel.cpp)
+     1>C:\Program Files\VC\include\functional(1149): warning C4800: 'unsigned int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고). (CCLabel.cpp)
+                 C:\Program Files\VC\include\functional(1137) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>::_Do_call<,0,1,2>(std::tuple<>,std::_Arg_idx<0,1,2>)'에 대한 참조를 확인하십시오.
+                 C:\Program Files\VC\include\functional(1137) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>::_Do_call<,0,1,2>(std::tuple<>,std::_Arg_idx<0,1,2>)'에 대한 참조를 확인하십시오.
+                 C:\Program Files\VC\include\xrefwrap(283) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>::operator ()<>(void)'에 대한 참조를 확인하십시오.
+                 C:\Program Files\VC\include\xrefwrap(283) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>::operator ()<>(void)'에 대한 참조를 확인하십시오.
+                 C:\Program Files\VC\include\functional(228) : 컴파일 중인 함수 템플릿 인스턴스화 '_Ret std::_Callable_obj<std::_Bind<true,_Ret,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>,false>::_ApplyX<_Rx,>(void)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Rx=void
+                 ]
+                 C:\Program Files\VC\include\functional(228) : 컴파일 중인 함수 템플릿 인스턴스화 '_Ret std::_Callable_obj<std::_Bind<true,_Ret,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>,false>::_ApplyX<_Rx,>(void)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Rx=void
+                 ]
+                 C:\Program Files\VC\include\functional(226) : 클래스 템플릿 멤버 함수 'void std::_Func_impl<_MyWrapper,_Alloc,_Ret,>::_Do_call(void)'을(를) 컴파일하고 있습니다.
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<void,>>
+         ,            _Ret=void
+                 ]
+                 C:\Program Files\VC\include\functional(495) : 컴파일 중인 클래스 템플릿 인스턴스화 'std::_Func_impl<_MyWrapper,_Alloc,_Ret,>'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<void,>>
+         ,            _Ret=void
+                 ]
+                 C:\Program Files\VC\include\functional(396) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Alloc=std::allocator<std::_Func_class<void,>>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+                 C:\Program Files\VC\include\functional(396) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Do_alloc<_Myimpl,_Ty,_Alloc>(_Fty &&,_Alloc)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Alloc=std::allocator<std::_Func_class<void,>>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+                 C:\Program Files\VC\include\functional(385) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,>>>(_Fty &&,_Alloc)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Alloc=std::allocator<std::_Func_class<void,>>
+                 ]
+                 C:\Program Files\VC\include\functional(385) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Reset_alloc<_Ty,std::allocator<std::_Func_class<_Ret,>>>(_Fty &&,_Alloc)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Alloc=std::allocator<std::_Func_class<void,>>
+                 ]
+                 C:\Program Files\VC\include\functional(688) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Reset<_Ty>(_Fty &&)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+                 C:\Program Files\VC\include\functional(688) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Func_class<_Ret,>::_Reset<_Ty>(_Fty &&)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ret=void
+         ,            _Ty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+         ,            _Fty=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+                 CCLabel.cpp(895) : 컴파일 중인 함수 템플릿 인스턴스화 'std::function<void (void)> &std::function<void (void)>::operator =<std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>>(_Fx &&)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Fx=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+                 CCLabel.cpp(895) : 컴파일 중인 함수 템플릿 인스턴스화 'std::function<void (void)> &std::function<void (void)>::operator =<std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>>(_Fx &&)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Fx=std::_Bind<true,void,std::_Pmf_wrap<void (__thiscall cocos2d::Label::* )(const cocos2d::Mat4 &,bool),void,cocos2d::Label,const cocos2d::Mat4 &,bool>,cocos2d::Label *const ,const cocos2d::Mat4 &,uint32_t &>
+                 ]
+         CCLabelTextFormatter.cpp
+         CCLabelTTF.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\base/ccUTF8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabelTextFormatter.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabelBMFont.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLabelBMFont.cpp)
+         CCLayer.cpp
+         CCMenu.cpp
+         CCMenuItem.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLayer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCLayer.cpp)
+         CCMotionStreak.cpp
+         CCNode.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCMenuItem.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCMenuItem.cpp)
+         CCNodeGrid.cpp
+         CCParallaxNode.cpp
+         CCParticleBatchNode.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCNode.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCNode.cpp)
+         CCParticleExamples.cpp
+         CCParticleSystem.cpp
+         CCParticleSystemQuad.cpp
+         CCProgressTimer.cpp
+         CCRenderTexture.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCProgressTimer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCProgressTimer.cpp)
+         CCScene.cpp
+         CCSprite.cpp
+         CCSpriteBatchNode.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCRenderTexture.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCRenderTexture.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCScene.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCScene.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSprite.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSprite.cpp)
+         CCSpriteFrame.cpp
+         CCSpriteFrameCache.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSpriteBatchNode.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSpriteBatchNode.cpp)
+         CCTextFieldTTF.cpp
+         CCTileMapAtlas.cpp
+         CCTMXLayer.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSpriteFrameCache.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCSpriteFrameCache.cpp)
+         CCTMXObjectGroup.cpp
+         CCTMXTiledMap.cpp
+         CCTMXXMLParser.cpp
+     1>CCTMXXMLParser.cpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXLayer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXLayer.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXLayer.cpp)
+         CCTransition.cpp
+         CCTransitionPageTurn.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXTiledMap.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTMXXMLParser.cpp)
+         CCTransitionProgress.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTransition.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTransition.cpp)
+         CCTweenFunction.cpp
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTransitionProgress.cpp)
+     1>C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (CCTransitionProgress.cpp)
+       PreLinkEvent:
+         if not exist "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         1개 파일이 복사되었습니다.
+         1개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+         1개 파일이 복사되었습니다.
+         1개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+         1개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+         2개 파일이 복사되었습니다.
+       Lib:
+         C:\Program Files\VC\bin\Lib.exe /OUT:"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\libcocos2d.lib" /NOLOGO Debug.win32\ConvertUTF.obj
+         Debug.win32\ConvertUTFWrapper.obj
+         Debug.win32\edtaa3func.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\xxhash.obj
+         Debug.win32\CCAnimate3D.obj
+         Debug.win32\CCAnimation3D.obj
+         Debug.win32\CCBundle3D.obj
+         Debug.win32\CCBundleReader.obj
+         Debug.win32\CCMesh.obj
+         Debug.win32\CCMeshSkin.obj
+         Debug.win32\CCObjLoader.obj
+         Debug.win32\CCSprite3D.obj
+         Debug.win32\CCSprite3DMaterial.obj
+         Debug.win32\atitc.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCConsole.obj
+         Debug.win32\CCData.obj
+         Debug.win32\CCDataVisitor.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCEvent.obj
+         Debug.win32\CCEventAcceleration.obj
+         Debug.win32\CCEventCustom.obj
+         Debug.win32\CCEventDispatcher.obj
+         Debug.win32\CCEventFocus.obj
+         Debug.win32\CCEventKeyboard.obj
+         Debug.win32\CCEventListener.obj
+         Debug.win32\CCEventListenerAcceleration.obj
+         Debug.win32\CCEventListenerCustom.obj
+         Debug.win32\CCEventListenerFocus.obj
+         Debug.win32\CCEventListenerKeyboard.obj
+         Debug.win32\CCEventListenerMouse.obj
+         Debug.win32\CCEventListenerTouch.obj
+         Debug.win32\CCEventMouse.obj
+         Debug.win32\CCEventTouch.obj
+         Debug.win32\ccFPSImages.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\CCRef.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\ccTypes.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCValue.obj
+         Debug.win32\etc1.obj
+         Debug.win32\ObjectFactory.obj
+         Debug.win32\s3tc.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\ZipUtils.obj
+         Debug.win32\cocos2d.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCDeprecated.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\Mat4.obj
+         Debug.win32\MathUtil.obj
+         Debug.win32\Quaternion.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\Vec2.obj
+         Debug.win32\Vec3.obj
+         Debug.win32\Vec4.obj
+         Debug.win32\CCPhysicsBody.obj
+         Debug.win32\CCPhysicsContact.obj
+         Debug.win32\CCPhysicsJoint.obj
+         Debug.win32\CCPhysicsShape.obj
+         Debug.win32\CCPhysicsWorld.obj
+         Debug.win32\CCPhysicsBodyInfo_chipmunk.obj
+         Debug.win32\CCPhysicsContactInfo_chipmunk.obj
+         Debug.win32\CCPhysicsJointInfo_chipmunk.obj
+         Debug.win32\CCPhysicsShapeInfo_chipmunk.obj
+         Debug.win32\CCPhysicsWorldInfo_chipmunk.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCGLViewProtocol.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         Debug.win32\CCGLView.obj
+         Debug.win32\CCApplication.obj
+         Debug.win32\CCCommon.obj
+         Debug.win32\CCDevice.obj
+         Debug.win32\CCFileUtilsWin32.obj
+         Debug.win32\CCStdC.obj
+         Debug.win32\CCBatchCommand.obj
+         Debug.win32\CCCustomCommand.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\CCGLProgramCache.obj
+         Debug.win32\CCGLProgramState.obj
+         Debug.win32\CCGLProgramStateCache.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCGroupCommand.obj
+         Debug.win32\CCMeshCommand.obj
+         Debug.win32\CCQuadCommand.obj
+         Debug.win32\CCRenderCommand.obj
+         Debug.win32\CCRenderer.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCAtlasNode.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCComponent.obj
+         Debug.win32\CCComponentContainer.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCFastTMXLayer.obj
+         Debug.win32\CCFastTMXTiledMap.obj
+         Debug.win32\CCFont.obj
+         Debug.win32\CCFontAtlas.obj
+         Debug.win32\CCFontAtlasCache.obj
+         Debug.win32\CCFontCharMap.obj
+         Debug.win32\CCFontFNT.obj
+         Debug.win32\CCFontFreeType.obj
+         Debug.win32\CCGLBufferedNode.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCLabel.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTextFormatter.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCNodeGrid.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\CCTweenFunction.obj
+         cocos2d.vcxproj -> C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\proj.win32\Debug.win32\libcocos2d.lib
+     1>"C:\cocos2d-x-3.1\cocos2d-x-3.1\tools\cocos2d-console\bin\nitylife\cocos2d\cocos\2d\cocos2d.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:04:22.86
